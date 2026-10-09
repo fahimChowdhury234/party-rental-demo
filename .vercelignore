@@ -1,0 +1,5 @@
+# Vercel runs `npm run build` itself, so local build output is not uploaded.
+dist
+publish
+.vscode
+# Keep .imgcache: it holds the re-encoded images, and Vercel has no cwebp to make them.

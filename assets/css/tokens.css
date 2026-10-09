@@ -1,0 +1,83 @@
+/*
+  Confetti Party Rentals: design tokens.
+  Layout: a bright party storefront. Photo-led cards on white with cream bands,
+  rounded Fredoka headings, and one signature element: the event "ticket"
+  date bar that asks for the date before anything else.
+  Colours follow the blueprint doc. The store is deliberately light-only.
+*/
+:root {
+  color-scheme: light;
+  /* surfaces */
+  --bg: #ffffff;
+  --bg-soft: #fff7f0;
+  --surface: #ffffff;
+  --surface-2: #f7f3ee;
+  --border: #e6e1da;
+  --border-strong: #d4ccc1;
+
+  /* text */
+  --ink: #1e2235;
+  --muted: #5b6178;
+
+  /* brand */
+  --primary: #d63447;
+  --primary-hover: #b52a3b;
+  --primary-ink: #b52a3b;
+  --primary-tint: #fdeced;
+  --on-primary: #ffffff;
+  --accent: #ffc93c;
+  --accent-tint: #fff3d1;
+  --on-accent: #1e2235;
+  /* playful extra colour for badges and step numbers (home page) */
+  --sky: #2563eb;
+  --sky-tint: #e7efff;
+
+  /* status */
+  --available: #1f7a55;
+  --available-tint: #e3f2ea;
+  --booked: #b42318;
+  --booked-tint: #fdeceb;
+
+  /* night band: footer, featured package, CTA text on dark */
+  --night: #1e2235;
+  --night-2: #2a2f47;
+  --on-night: #f6f3ee;
+  --on-night-muted: #bcc0d1;
+  --booked-on-night: #ffb4a9;
+
+  --focus: #2563eb;
+  --shadow-rgb: 30 34 53;
+  --shadow-sm: 0 1px 2px rgb(var(--shadow-rgb) / 0.06), 0 2px 8px rgb(var(--shadow-rgb) / 0.05);
+  --shadow: 0 6px 20px rgb(var(--shadow-rgb) / 0.07);
+  --shadow-lg: 0 16px 40px rgb(var(--shadow-rgb) / 0.12);
+
+  /* type */
+  --font-display: "Fredoka", "Baloo 2", ui-rounded, "Arial Rounded MT Bold", "Trebuchet MS", sans-serif;
+  --font-body: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --fs-h1: clamp(2.125rem, 1.55rem + 2.4vw, 3rem);
+  --fs-h2: clamp(1.75rem, 1.5rem + 1vw, 2.25rem);
+  --fs-h3: clamp(1.25rem, 1.18rem + 0.3vw, 1.375rem);
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+  --fs-xs: 0.78rem;
+
+  /* shape and space (8 px scale) */
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 20px;
+  --r-xl: 28px;
+  --r-pill: 999px;
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 16px;
+  --s-4: 24px;
+  --s-5: 32px;
+  --s-6: 48px;
+  --s-7: 64px;
+  --s-8: 96px;
+  --section-y: clamp(56px, 4rem + 3vw, 96px);
+  --container: 1200px;
+  --gutter: clamp(16px, 3vw, 32px);
+  --header-h: 72px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+}

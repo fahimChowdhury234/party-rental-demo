@@ -1,0 +1,13 @@
+{
+  "name": "party-rental-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Confetti Party Rentals: a static demo party rental store built from data/store.json.",
+  "scripts": {
+    "build": "node build.mjs",
+    "start": "npx --yes serve dist"
+  },
+  "dependencies": {
+    "lucide-static": "^1.52.0"
+  }
+}

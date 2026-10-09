@@ -1,0 +1,6 @@
+node_modules
+dist
+publish
+.vercel
+.DS_Store
+# Keep .imgcache in the repo: it holds the re-encoded images, and Vercel has no cwebp to make them.

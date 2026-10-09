@@ -1,0 +1,1219 @@
+{
+  "store": {
+    "name": "Confetti Party Rentals",
+    "city": "Springfield",
+    "phone": "(555) 010-0142",
+    "phoneHref": "tel:+15550100142",
+    "smsHref": "sms:+15550100142",
+    "email": "hello@example.com",
+    "address": "1200 Market Street, Springfield",
+    "since": 2012,
+    "rating": 4.9,
+    "reviewCount": 312,
+    "ratingSplit": [
+      92,
+      6,
+      1,
+      1,
+      0
+    ],
+    "deposit": {
+      "min": 50,
+      "pct": 0.25
+    },
+    "balanceDaysBefore": 2,
+    "quoteThreshold": 1500,
+    "sandbagFee": 25,
+    "freeMiles": 10,
+    "perMile": 2,
+    "maxMiles": 30,
+    "deliveryWindow": "8 am to 12 pm",
+    "pickupBy": "8 pm",
+    "hours": [
+      {
+        "days": "Monday to Friday",
+        "time": "8 am to 6 pm"
+      },
+      {
+        "days": "Saturday",
+        "time": "8 am to 4 pm"
+      },
+      {
+        "days": "Sunday",
+        "time": "Deliveries and pickups only"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "id": "bounce-houses",
+      "name": "Bounce Houses",
+      "icon": "party-popper",
+      "blurb": "Castles and bright jumpers for backyard birthdays.",
+      "intro": "Every bounce house is washed, inspected and staked down by our crew. Prices include delivery inside 10 miles, setup, and pickup the same evening.",
+      "image": "cat-bounce-houses"
+    },
+    {
+      "id": "combos",
+      "name": "Combos",
+      "icon": "sparkles",
+      "blurb": "Bounce, climb and slide in one unit.",
+      "intro": "Combos pack a jump area, a climbing wall and a slide into one footprint, so older kids stay busy longer. Most fit a 30 ft yard.",
+      "image": "cat-combos"
+    },
+    {
+      "id": "water-slides",
+      "name": "Water Slides",
+      "icon": "droplets",
+      "blurb": "Tall slides and splash pools for hot days.",
+      "intro": "Water slides need a garden hose within 50 ft and a lawn that can take some water. We set the pool level and test the flow before we leave.",
+      "image": "cat-water-slides"
+    },
+    {
+      "id": "active-play",
+      "name": "Active Play",
+      "icon": "route",
+      "blurb": "Climbing towers and crawl-through tunnels.",
+      "intro": "Built for field days, church festivals and kids who never stop moving. Each one keeps a line of kids rotating fast.",
+      "image": "cat-obstacle-courses"
+    },
+    {
+      "id": "tents",
+      "name": "Tents",
+      "icon": "tent",
+      "blurb": "Frame tents and canopies for shade or rain.",
+      "intro": "Frame tents need no center poles, so the space under them stays open. We stake into grass or use water barrels on hard surfaces.",
+      "image": "cat-tents"
+    },
+    {
+      "id": "tables-chairs",
+      "name": "Tables & Chairs",
+      "icon": "users",
+      "blurb": "Banquet and round tables, white chairs, kids sets.",
+      "intro": "Tables and chairs are priced per day and delivered stacked where you choose. Add linens to any table.",
+      "image": "cat-tables-chairs"
+    },
+    {
+      "id": "concessions",
+      "name": "Concessions",
+      "icon": "cake",
+      "blurb": "Cotton candy, popcorn and snow cones, supplies included.",
+      "intro": "Each machine comes with supplies for 50 servings and a one-page guide. Most run on one standard outlet.",
+      "image": "cat-concessions"
+    },
+    {
+      "id": "games",
+      "name": "Yard Games",
+      "icon": "gift",
+      "blurb": "Giant games for every age.",
+      "intro": "Giant yard games keep adults and kids playing between the bigger rentals. They fit in a car, so pickup from our warehouse is free.",
+      "image": "cat-games"
+    }
+  ],
+  "addons": {
+    "extra-hour": {
+      "label": "Extra hour",
+      "price": 25
+    },
+    "attendant": {
+      "label": "Trained attendant for the rental",
+      "price": 95
+    },
+    "sandbags": {
+      "label": "Sandbags for a hard surface",
+      "price": 25
+    },
+    "generator": {
+      "label": "Generator, if no outlet is nearby",
+      "price": 85
+    },
+    "sidewalls": {
+      "label": "Sidewalls for wind and rain",
+      "price": 60
+    },
+    "lights": {
+      "label": "Warm string lights",
+      "price": 45
+    },
+    "linen": {
+      "label": "White linen tablecloth",
+      "price": 8,
+      "perUnit": true
+    },
+    "servings": {
+      "label": "Extra 50 servings",
+      "price": 20
+    }
+  },
+  "products": [
+    {
+      "id": "royal-castle-bounce-house",
+      "name": "Royal Castle Bounce House",
+      "category": "bounce-houses",
+      "kind": "inflatable",
+      "image": "p-royal-castle",
+      "prices": {
+        "h4": 149,
+        "h8": 179,
+        "overnight": 209,
+        "d2": 298
+      },
+      "size": [
+        13,
+        13,
+        15
+      ],
+      "setup": [
+        17,
+        17
+      ],
+      "ages": "3 to 10",
+      "ageGroup": "kids",
+      "riders": 6,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.9,
+      "reviews": 128,
+      "badge": "Best Seller",
+      "popular": 1,
+      "summary": "Our most booked jumper. Turrets on every corner, a mesh window wall so parents can see in, and a 13 by 13 ft jump floor.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "rainbow-bounce-house",
+      "name": "Rainbow Bounce House",
+      "category": "bounce-houses",
+      "kind": "inflatable",
+      "image": "p-rainbow-bounce",
+      "prices": {
+        "h4": 139,
+        "h8": 169,
+        "overnight": 199,
+        "d2": 278
+      },
+      "size": [
+        15,
+        15,
+        14
+      ],
+      "setup": [
+        19,
+        19
+      ],
+      "ages": "3 to 12",
+      "ageGroup": "kids",
+      "riders": 8,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.8,
+      "reviews": 64,
+      "popular": 4,
+      "summary": "A bright, roomy jumper with a 15 by 15 ft floor that holds 8 kids at once. A good pick for mixed ages.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "cloud-nine-bounce-pillow",
+      "name": "Cloud Nine Bounce Pillow",
+      "category": "bounce-houses",
+      "kind": "inflatable",
+      "image": "p-toddler-jungle",
+      "prices": {
+        "h4": 159,
+        "h8": 189,
+        "overnight": 219,
+        "d2": 318
+      },
+      "size": [
+        20,
+        14,
+        3
+      ],
+      "setup": [
+        24,
+        18
+      ],
+      "ages": "2 and up",
+      "ageGroup": "all",
+      "riders": 10,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.9,
+      "reviews": 41,
+      "badge": "New",
+      "isNew": true,
+      "popular": 9,
+      "summary": "A low, open bounce pillow with no walls to climb over. Toddlers stay close to the ground and big kids still get real air.",
+      "addons": [
+        "extra-hour",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "rainbow-run-combo",
+      "name": "Rainbow Run Combo",
+      "category": "combos",
+      "kind": "inflatable",
+      "image": "p-tropical-combo",
+      "prices": {
+        "h4": 229,
+        "h8": 269,
+        "overnight": 299,
+        "d2": 458
+      },
+      "size": [
+        26,
+        15,
+        14
+      ],
+      "setup": [
+        30,
+        19
+      ],
+      "ages": "4 to 12",
+      "ageGroup": "kids",
+      "riders": 8,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.9,
+      "reviews": 87,
+      "badge": "Best Seller",
+      "popular": 2,
+      "summary": "A jump room with a tall striped slide out the front. Kids climb, slide and run back around for hours, which is exactly the point.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "mega-climb-and-slide",
+      "name": "Mega Climb and Slide",
+      "category": "combos",
+      "kind": "inflatable",
+      "image": "p-palace-combo",
+      "prices": {
+        "h4": 239,
+        "h8": 279,
+        "overnight": 309,
+        "d2": 478
+      },
+      "size": [
+        24,
+        16,
+        15
+      ],
+      "setup": [
+        28,
+        20
+      ],
+      "ages": "5 to 12",
+      "ageGroup": "kids",
+      "riders": 8,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.8,
+      "reviews": 52,
+      "popular": 6,
+      "summary": "A climbing wall up one side and a wide slide down the other, in bright orange and blue. Works as a dry combo all year.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "hop-ball-bounce-house",
+      "name": "Hop Ball Bounce House",
+      "category": "bounce-houses",
+      "kind": "inflatable",
+      "image": "p-sports-combo",
+      "prices": {
+        "h4": 169,
+        "h8": 199,
+        "overnight": 229,
+        "d2": 338
+      },
+      "size": [
+        15,
+        15,
+        13
+      ],
+      "setup": [
+        19,
+        19
+      ],
+      "ages": "3 to 10",
+      "ageGroup": "kids",
+      "riders": 8,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.7,
+      "reviews": 33,
+      "popular": 11,
+      "summary": "A roomy teal, purple and pink jumper that comes with 4 hopper balls, so kids can bounce inside the bounce house.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "wave-rider-water-slide",
+      "name": "Wave Rider Water Slide",
+      "category": "water-slides",
+      "kind": "inflatable",
+      "image": "p-wave-rider",
+      "prices": {
+        "h4": 289,
+        "h8": 339,
+        "overnight": 369,
+        "d2": 578
+      },
+      "size": [
+        30,
+        12,
+        18
+      ],
+      "setup": [
+        34,
+        16
+      ],
+      "ages": "5 and up",
+      "ageGroup": "kids",
+      "riders": 1,
+      "outlets": 1,
+      "wet": true,
+      "rating": 4.9,
+      "reviews": 96,
+      "badge": "Best Seller",
+      "popular": 3,
+      "summary": "An 18 ft climb, a steep wet lane and a splash pool at the bottom. The summer favorite for ages 5 and up.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "generator"
+      ]
+    },
+    {
+      "id": "submarine-splash-dual-lane",
+      "name": "Submarine Splash Dual Lane",
+      "category": "water-slides",
+      "kind": "inflatable",
+      "image": "p-splash-lagoon",
+      "prices": {
+        "h4": 369,
+        "h8": 429,
+        "overnight": 459,
+        "d2": 738
+      },
+      "size": [
+        35,
+        20,
+        22
+      ],
+      "setup": [
+        40,
+        24
+      ],
+      "ages": "6 and up",
+      "ageGroup": "kids",
+      "riders": 2,
+      "outlets": 2,
+      "wet": true,
+      "rating": 4.8,
+      "reviews": 38,
+      "popular": 8,
+      "summary": "A yellow submarine tower with side-by-side lanes that drop into a splash pool. Built for big backyards and school splash days.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "generator"
+      ]
+    },
+    {
+      "id": "backyard-slip-and-slide",
+      "name": "Backyard Slip and Slide",
+      "category": "water-slides",
+      "kind": "inflatable",
+      "image": "p-backyard-splash",
+      "prices": {
+        "h4": 189,
+        "h8": 219,
+        "overnight": 249,
+        "d2": 378
+      },
+      "size": [
+        25,
+        7,
+        3
+      ],
+      "setup": [
+        29,
+        11
+      ],
+      "ages": "4 to 10",
+      "ageGroup": "kids",
+      "riders": 1,
+      "outlets": 1,
+      "wet": true,
+      "rating": 4.8,
+      "reviews": 29,
+      "badge": "New",
+      "isNew": true,
+      "popular": 12,
+      "summary": "A 25 ft slide lane with a padded splash bumper at the end. Low to the ground, so younger kids can go on their own.",
+      "addons": [
+        "extra-hour",
+        "generator"
+      ]
+    },
+    {
+      "id": "rocket-climb-tower",
+      "name": "Rocket Climb Tower",
+      "category": "active-play",
+      "kind": "inflatable",
+      "image": "p-ninja-course",
+      "prices": {
+        "h4": 349,
+        "h8": 399,
+        "overnight": 429,
+        "d2": 698
+      },
+      "size": [
+        16,
+        16,
+        20
+      ],
+      "setup": [
+        20,
+        20
+      ],
+      "ages": "6 and up",
+      "ageGroup": "all",
+      "riders": 2,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.9,
+      "reviews": 57,
+      "popular": 5,
+      "summary": "A 20 ft inflatable climbing tower with handholds on every side and a soft landing zone. Teens and adults can climb it too.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "caterpillar-crawl",
+      "name": "Caterpillar Crawl",
+      "category": "active-play",
+      "kind": "inflatable",
+      "image": "p-mini-course",
+      "prices": {
+        "h4": 199,
+        "h8": 229,
+        "overnight": 259,
+        "d2": 398
+      },
+      "size": [
+        25,
+        12,
+        8
+      ],
+      "setup": [
+        29,
+        16
+      ],
+      "ages": "2 to 8",
+      "ageGroup": "toddlers",
+      "riders": 6,
+      "outlets": 1,
+      "wet": false,
+      "rating": 4.8,
+      "reviews": 22,
+      "popular": 14,
+      "summary": "A giant teal caterpillar to crawl through, on a soft bounce floor. A favorite for toddlers and preschool events.",
+      "addons": [
+        "extra-hour",
+        "attendant",
+        "sandbags",
+        "generator"
+      ]
+    },
+    {
+      "id": "frame-tent-20x20",
+      "name": "20 × 20 ft Frame Tent",
+      "category": "tents",
+      "kind": "tent",
+      "image": "p-tent-20x20",
+      "price": 299,
+      "unit": "day",
+      "size": [
+        20,
+        20,
+        10
+      ],
+      "setup": [
+        24,
+        24
+      ],
+      "seats": "40 at round tables, 48 at banquet tables",
+      "rating": 4.9,
+      "reviews": 71,
+      "badge": "Best Seller",
+      "popular": 7,
+      "summary": "Open space for 40 guests with no center pole in the way. White vinyl top, set up and taken down by our crew.",
+      "addons": [
+        "sidewalls",
+        "lights",
+        "sandbags"
+      ]
+    },
+    {
+      "id": "popup-canopy-10x10",
+      "name": "10 × 10 ft Pop-up Canopy",
+      "category": "tents",
+      "kind": "tent",
+      "image": "p-canopy-10x10",
+      "price": 75,
+      "unit": "day",
+      "size": [
+        10,
+        10,
+        9
+      ],
+      "setup": [
+        12,
+        12
+      ],
+      "seats": "Shade for 8 to 10 people",
+      "rating": 4.8,
+      "reviews": 45,
+      "popular": 13,
+      "summary": "Quick shade for a food table, a gift table or the bottom of a water slide.",
+      "addons": [
+        "sidewalls",
+        "sandbags"
+      ]
+    },
+    {
+      "id": "frame-tent-20x40",
+      "name": "20 × 40 ft Frame Tent",
+      "category": "tents",
+      "kind": "tent",
+      "image": "p-tent-20x40",
+      "price": 649,
+      "unit": "day",
+      "size": [
+        40,
+        20,
+        10
+      ],
+      "setup": [
+        44,
+        24
+      ],
+      "seats": "80 at round tables, 96 at banquet tables",
+      "rating": 5.0,
+      "reviews": 26,
+      "popular": 16,
+      "summary": "Room for 80 guests at rounds, a buffet line and a dance floor. Our choice for backyard weddings and company picnics.",
+      "addons": [
+        "sidewalls",
+        "lights",
+        "sandbags"
+      ]
+    },
+    {
+      "id": "farmhouse-table-8ft",
+      "name": "8 ft Farmhouse Table",
+      "category": "tables-chairs",
+      "kind": "table",
+      "image": "p-banquet-table",
+      "price": 45,
+      "unit": "each",
+      "size": [
+        8,
+        3.3,
+        2.5
+      ],
+      "seats": "8 to 10 adults",
+      "rating": 4.9,
+      "reviews": 112,
+      "popular": 10,
+      "summary": "Solid wood tables for a garden dinner or a long buffet. Shown set for a summer lunch; linens are optional.",
+      "addons": [
+        "linen"
+      ]
+    },
+    {
+      "id": "round-table-60in",
+      "name": "60 in Round Table",
+      "category": "tables-chairs",
+      "kind": "table",
+      "image": "p-round-table",
+      "price": 12,
+      "unit": "each",
+      "size": [
+        5,
+        5,
+        2.5
+      ],
+      "seats": "8 adults",
+      "rating": 4.9,
+      "reviews": 48,
+      "popular": 17,
+      "summary": "The standard reception table. Seats 8 comfortably; shown here with white linens.",
+      "addons": [
+        "linen"
+      ]
+    },
+    {
+      "id": "white-folding-chair",
+      "name": "White Folding Chair",
+      "category": "tables-chairs",
+      "kind": "table",
+      "image": "p-white-chair",
+      "price": 2,
+      "unit": "each",
+      "seats": "1 adult, rated to 300 lb",
+      "rating": 4.8,
+      "reviews": 140,
+      "popular": 15,
+      "summary": "Padded white folding chairs, delivered in stacks of 10. Order any quantity.",
+      "addons": []
+    },
+    {
+      "id": "kids-table-and-chair-set",
+      "name": "Kids Table and Chair Set",
+      "category": "tables-chairs",
+      "kind": "table",
+      "image": "p-kids-table",
+      "price": 25,
+      "unit": "set",
+      "size": [
+        4,
+        2,
+        1.8
+      ],
+      "seats": "6 kids, ages 2 to 8",
+      "rating": 4.9,
+      "reviews": 31,
+      "badge": "New",
+      "isNew": true,
+      "popular": 18,
+      "summary": "A 4 ft table with 6 kid-height chairs, so little guests can eat cake at their own table.",
+      "addons": [
+        "linen"
+      ]
+    },
+    {
+      "id": "cotton-candy-machine",
+      "name": "Cotton Candy Machine",
+      "category": "concessions",
+      "kind": "concession",
+      "image": "p-cotton-candy",
+      "price": 65,
+      "unit": "day",
+      "output": "About 1 cone a minute",
+      "supplies": "Sugar, cones and bags for 50 servings",
+      "rating": 4.9,
+      "reviews": 83,
+      "popular": 19,
+      "summary": "Tabletop machine with a clear bubble guard. Supplies for 50 servings included.",
+      "addons": [
+        "servings"
+      ]
+    },
+    {
+      "id": "popcorn-machine",
+      "name": "Popcorn Machine",
+      "category": "concessions",
+      "kind": "concession",
+      "image": "p-popcorn",
+      "price": 65,
+      "unit": "day",
+      "output": "8 oz kettle, about 100 servings an hour",
+      "supplies": "Kernels, oil, salt and bags for 50 servings",
+      "rating": 4.8,
+      "reviews": 47,
+      "popular": 20,
+      "summary": "A theater-style kettle on a cart. The smell alone brings guests over.",
+      "addons": [
+        "servings"
+      ]
+    },
+    {
+      "id": "snow-cone-machine",
+      "name": "Snow Cone Machine",
+      "category": "concessions",
+      "kind": "concession",
+      "image": "p-snow-cone",
+      "price": 65,
+      "unit": "day",
+      "output": "Shaves a 10 lb bag of ice in about 4 minutes",
+      "supplies": "3 syrup flavors and cups for 50 servings (ice not included)",
+      "rating": 4.8,
+      "reviews": 36,
+      "popular": 21,
+      "summary": "Fast ice shaver with three syrup flavors. Pairs well with any water slide.",
+      "addons": [
+        "servings"
+      ]
+    },
+    {
+      "id": "giant-connect-four",
+      "name": "Giant Four-in-a-Row",
+      "category": "games",
+      "kind": "game",
+      "image": "p-giant-connect",
+      "price": 45,
+      "unit": "day",
+      "size": [
+        4,
+        1.5,
+        4
+      ],
+      "players": "2 players or teams",
+      "bestFor": "All ages",
+      "rating": 4.9,
+      "reviews": 28,
+      "popular": 22,
+      "summary": "A 4 ft tall frame and oversized discs. Quick rounds, lots of shouting.",
+      "addons": []
+    },
+    {
+      "id": "giant-tumble-tower",
+      "name": "Giant Tumble Tower",
+      "category": "games",
+      "kind": "game",
+      "image": "p-giant-jenga",
+      "price": 35,
+      "unit": "day",
+      "size": [
+        1,
+        1,
+        2.5
+      ],
+      "players": "2 or more",
+      "bestFor": "Ages 6 and up",
+      "rating": 4.8,
+      "reviews": 34,
+      "popular": 23,
+      "summary": "54 sanded pine blocks that stack past 4 ft. Comes with a carry crate.",
+      "addons": []
+    },
+    {
+      "id": "cornhole-set",
+      "name": "Cornhole Set",
+      "category": "games",
+      "kind": "game",
+      "image": "p-cornhole",
+      "price": 30,
+      "unit": "day",
+      "size": [
+        4,
+        2,
+        1
+      ],
+      "players": "2 or 4 players",
+      "bestFor": "Teens and adults",
+      "rating": 4.9,
+      "reviews": 42,
+      "popular": 24,
+      "summary": "Two regulation 2 by 4 ft boards and 8 bags. The adult crowd's favorite.",
+      "addons": []
+    }
+  ],
+  "packages": [
+    {
+      "id": "backyard-birthday",
+      "name": "Backyard Birthday",
+      "tagline": "Everything for a 20-kid birthday",
+      "price": 259,
+      "items": [
+        {
+          "id": "royal-castle-bounce-house",
+          "qty": 1,
+          "duration": "h8"
+        },
+        {
+          "id": "kids-table-and-chair-set",
+          "qty": 2
+        },
+        {
+          "id": "cotton-candy-machine",
+          "qty": 1
+        }
+      ],
+      "image": "event-birthday"
+    },
+    {
+      "id": "summer-splash",
+      "name": "Summer Splash",
+      "tagline": "Slide, shade and a cool-down spot",
+      "price": 369,
+      "featured": true,
+      "items": [
+        {
+          "id": "wave-rider-water-slide",
+          "qty": 1,
+          "duration": "h8"
+        },
+        {
+          "id": "popup-canopy-10x10",
+          "qty": 1
+        }
+      ],
+      "image": "cat-water-slides"
+    },
+    {
+      "id": "big-event",
+      "name": "Big Event",
+      "tagline": "Shade and seating for 40, plus a climbing tower",
+      "price": 749,
+      "items": [
+        {
+          "id": "frame-tent-20x20",
+          "qty": 1
+        },
+        {
+          "id": "round-table-60in",
+          "qty": 5
+        },
+        {
+          "id": "white-folding-chair",
+          "qty": 40
+        },
+        {
+          "id": "rocket-climb-tower",
+          "qty": 1,
+          "duration": "h8"
+        }
+      ],
+      "image": "event-corporate"
+    }
+  ],
+  "zones": [
+    {
+      "city": "Springfield",
+      "zip": "56010",
+      "miles": 3,
+      "x": 0,
+      "y": 0
+    },
+    {
+      "city": "Riverside",
+      "zip": "56021",
+      "miles": 8,
+      "x": 0.72,
+      "y": -0.42
+    },
+    {
+      "city": "Fairview",
+      "zip": "56034",
+      "miles": 14,
+      "x": -0.95,
+      "y": -0.52
+    },
+    {
+      "city": "Oakdale",
+      "zip": "56042",
+      "miles": 19,
+      "x": 1.25,
+      "y": 0.62
+    },
+    {
+      "city": "Lakewood",
+      "zip": "56057",
+      "miles": 24,
+      "x": -1.3,
+      "y": 0.95
+    },
+    {
+      "city": "Greenville",
+      "zip": "56063",
+      "miles": 29,
+      "x": 0.35,
+      "y": 1.9
+    }
+  ],
+  "cityNotes": {
+    "Springfield": "Our warehouse is on Market Street, so most Springfield orders arrive at the start of the delivery window.",
+    "Riverside": "Riverside yards tend to be flat and open, which suits the larger combos and the climbing tower.",
+    "Fairview": "Many Fairview homes have gated side yards. Measure the gate: most inflatables need a 4 ft opening.",
+    "Oakdale": "Oakdale schools book the climbing tower and caterpillar crawl for field day in May, so reserve early.",
+    "Lakewood": "Lakewood lake-house parties often need a generator. Add one on the product page.",
+    "Greenville": "Greenville sits at the edge of our area, 29 miles out, so delivery is $38. Bundle a package to make the trip worth it."
+  },
+  "reviews": [
+    {
+      "name": "Maria G.",
+      "city": "Riverside",
+      "event": "Birthday party",
+      "date": "September 2026",
+      "stars": 5,
+      "item": "Royal Castle Bounce House",
+      "text": "The castle was spotless, the crew set up in 20 minutes, and they texted when they were on the way. My daughter wants it again next year."
+    },
+    {
+      "name": "Coach Daniel O.",
+      "city": "Oakdale",
+      "event": "School field day",
+      "date": "May 2026",
+      "stars": 5,
+      "item": "Rocket Climb Tower",
+      "text": "The climbing tower, the caterpillar crawl and a tent for 300 kids. They arrived before 8, walked our staff through the rules, and had the certificate of insurance ready."
+    },
+    {
+      "name": "Priya S.",
+      "city": "Fairview",
+      "event": "Pool party",
+      "date": "August 2026",
+      "stars": 5,
+      "item": "Wave Rider Water Slide",
+      "text": "The Wave Rider was the only thing the kids talked about all summer. Booking online took five minutes and the deposit was clear from the start."
+    },
+    {
+      "name": "Jordan and Lee T.",
+      "city": "Lakewood",
+      "event": "Backyard wedding",
+      "date": "June 2026",
+      "stars": 5,
+      "item": "20 × 40 ft Frame Tent",
+      "text": "Tent, 80 chairs and string lights for our wedding. Everything was clean and the final bill matched the quote to the dollar."
+    },
+    {
+      "name": "Ashley K.",
+      "city": "Springfield",
+      "event": "Birthday party",
+      "date": "April 2026",
+      "stars": 5,
+      "item": "Rainbow Run Combo",
+      "text": "Storms were forecast, so we moved our date with one text. No fee and no hassle. The combo was a hit the next weekend."
+    },
+    {
+      "name": "Marcus W.",
+      "city": "Greenville",
+      "event": "Company picnic",
+      "date": "September 2026",
+      "stars": 4,
+      "item": "Big Event package",
+      "text": "Tent, tables, popcorn and yard games for 120 people in one order. Pickup ran 30 minutes late, but they called ahead to let us know."
+    }
+  ],
+  "faqs": [
+    {
+      "group": "Booking and payment",
+      "q": "How much is the deposit?",
+      "a": "$50 or 25% of your order, whichever is higher. The balance is charged 2 days before your event.",
+      "home": true
+    },
+    {
+      "group": "Weather and safety",
+      "q": "What happens if it rains?",
+      "a": "If rain or wind over 15 mph is forecast, cancel up to 2 hours before delivery for a full refund or credit. We never set up inflatables in unsafe weather.",
+      "home": true
+    },
+    {
+      "group": "Delivery and setup",
+      "q": "How much space do I need?",
+      "a": "Each item lists its setup area, which already includes room to walk around it. Measure gates too: most inflatables need a 4 ft opening.",
+      "home": true
+    },
+    {
+      "group": "Delivery and setup",
+      "q": "Do I need power?",
+      "a": "Most inflatables need 1 standard outlet within 50 ft, on its own circuit. No outlet nearby? Add a generator for $85 on the product page.",
+      "home": true
+    },
+    {
+      "group": "Booking and payment",
+      "q": "Can I cancel?",
+      "a": "Cancel 7 or more days before your event for a full refund. Inside 7 days, your deposit becomes store credit for 12 months.",
+      "home": true
+    },
+    {
+      "group": "Delivery and setup",
+      "q": "When do you deliver and pick up?",
+      "a": "For daytime events we deliver between 8 am and 12 pm and pick up by 8 pm. We text when the crew is 30 minutes away.",
+      "home": true
+    },
+    {
+      "group": "Delivery and setup",
+      "q": "Can you set up on concrete or a driveway?",
+      "a": "Yes. Choose Hard surface in the cart and we bring sandbags instead of stakes for $25 per inflatable or tent."
+    },
+    {
+      "group": "Delivery and setup",
+      "q": "Do I need to be home for delivery?",
+      "a": "Someone 18 or older needs to be there to show us where to set up and to hear the safety rules. Pickup can happen without you."
+    },
+    {
+      "group": "Weather and safety",
+      "q": "How do you clean the equipment?",
+      "a": "Every inflatable is swept, washed and sanitized after each rental, then left to dry fully before it goes back on the shelf."
+    },
+    {
+      "group": "Weather and safety",
+      "q": "Are you insured?",
+      "a": "Yes, with $1 million in general liability coverage. Schools, churches and venues can request a certificate of insurance at checkout."
+    },
+    {
+      "group": "Booking and payment",
+      "q": "Can I keep a rental overnight?",
+      "a": "Yes. Pick Overnight on the product page and we pick up the next morning by 10 am."
+    },
+    {
+      "group": "Booking and payment",
+      "q": "Do you deliver outside your area?",
+      "a": "We deliver up to 30 miles from Springfield. For anything farther, call us and we will quote it."
+    }
+  ],
+  "steps": [
+    {
+      "title": "Pick your date",
+      "text": "Enter your date and ZIP. Every item shows if it's free that day."
+    },
+    {
+      "title": "Choose your rentals",
+      "text": "Add inflatables, tents, tables and treats, or start from a package."
+    },
+    {
+      "title": "Pay a small deposit",
+      "text": "$50 or 25% holds your date. The balance is due 2 days before."
+    },
+    {
+      "title": "We deliver and set up",
+      "text": "We set up, walk you through the safety rules, and pick up when the party's over."
+    }
+  ],
+  "safety": [
+    {
+      "icon": "sparkles",
+      "title": "Cleaned after every rental",
+      "text": "Swept, washed and sanitized, then dried fully before it goes back on the shelf."
+    },
+    {
+      "icon": "shield-check",
+      "title": "Inspected and anchored",
+      "text": "Seams, blowers and cords are checked before each delivery. Every unit is staked or sandbagged on site."
+    },
+    {
+      "icon": "badge-check",
+      "title": "Fully insured",
+      "text": "$1 million liability coverage. Certificates ready for schools, churches and venues."
+    },
+    {
+      "icon": "truck",
+      "title": "On-time delivery",
+      "text": "A 4-hour morning window, plus a text when the crew is 30 minutes away."
+    }
+  ],
+  "events": [
+    {
+      "id": "birthday",
+      "title": "Birthdays",
+      "text": "Bounce houses, cotton candy and kid-size tables.",
+      "image": "gal-7",
+      "link": "packages.html#backyard-birthday"
+    },
+    {
+      "id": "school",
+      "title": "Schools and churches",
+      "text": "Climbing towers and tents for field days and festivals.",
+      "image": "gal-8",
+      "link": "rentals-active-play.html"
+    },
+    {
+      "id": "corporate",
+      "title": "Company events",
+      "text": "Tents, tables and yard games for picnics up to 200.",
+      "image": "gal-6",
+      "link": "packages.html#big-event"
+    },
+    {
+      "id": "wedding",
+      "title": "Weddings",
+      "text": "Frame tents, round tables, white chairs and string lights.",
+      "image": "event-wedding",
+      "link": "rentals-tents.html"
+    }
+  ],
+  "seasons": [
+    {
+      "months": [3, 4, 5],
+      "tag": "Spring is booking now",
+      "title": "The first warm weekends fill fast",
+      "text": "Bounce houses, combos and canopies for backyard birthdays and graduation parties. April and May Saturdays fill about 3 weeks ahead.",
+      "image": "gal-2",
+      "link": "rentals-bounce-houses.html",
+      "cta": "Shop bounce houses",
+      "picks": ["royal-castle-bounce-house", "rainbow-run-combo", "cloud-nine-bounce-pillow"]
+    },
+    {
+      "months": [6, 7, 8],
+      "tag": "Summer is booking now",
+      "title": "Beat the heat with a water slide",
+      "text": "Tall slides, splash pools and dual lanes. Hot weekends go first, so pick your date early.",
+      "image": "gal-5",
+      "link": "rentals-water-slides.html",
+      "cta": "Shop water slides",
+      "picks": ["wave-rider-water-slide", "submarine-splash-dual-lane", "backyard-slip-and-slide"]
+    },
+    {
+      "months": [9, 10, 11],
+      "tag": "Fall festival season",
+      "title": "Fall festivals and school carnivals",
+      "text": "Climbing towers, tents, popcorn and yard games for harvest festivals, trunk-or-treats and field days. Big events get a custom quote.",
+      "image": "event-school",
+      "link": "quote.html",
+      "cta": "Get a festival quote",
+      "picks": ["rocket-climb-tower", "frame-tent-20x40", "popcorn-machine"]
+    },
+    {
+      "months": [12, 1, 2],
+      "tag": "Holiday season",
+      "title": "Holiday parties and winter events",
+      "text": "Tents, tables and treats for office parties, school gyms and church halls. Bounce houses set up indoors too.",
+      "image": "gal-3",
+      "kind": "portrait",
+      "link": "packages.html",
+      "cta": "See party packages",
+      "picks": ["frame-tent-20x20", "cotton-candy-machine", "giant-tumble-tower"]
+    }
+  ],
+  "vendors": [
+    {
+      "name": "Bluebell Florals",
+      "type": "Flowers and centerpieces"
+    },
+    {
+      "name": "Maple Street Bakery",
+      "type": "Birthday and wedding cakes"
+    },
+    {
+      "name": "Harbor Lane Catering",
+      "type": "Buffets and food trucks"
+    },
+    {
+      "name": "Springfield Party Supply",
+      "type": "Balloons and decor"
+    }
+  ]
+}
